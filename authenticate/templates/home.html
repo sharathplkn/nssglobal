@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Service Scheme</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header Section -->
+        <header class="py-3 border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1 class="mb-0">National Service Scheme</h1>
+                        <p class="mb-0 text-muted">Thavakkara, Civil Station P.O, Kannur</p>
+                        <small class="text-muted">Reaccredited by NAAC with B++ Grade</small>
+                    </div>
+                    <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                        <div class="btn-group" role="group">
+                            <a href="#" class="btn btn-outline-primary">University Login</a>
+                            <a href="#" class="btn btn-outline-primary">College Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">University</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">K-REAP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="mb-4 border-bottom pb-2">Notices</h2>
+                    
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <h5>2024 Announcements</h5>
+                            <p>Important updates for the current year</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Training Sessions</h5>
+                            <p>Schedule for upcoming training programs</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Annual Calendar</h5>
+                            <p>Important dates and events for the year</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Scholarship Programs</h5>
+                            <p>Information about available scholarships</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Rural Development Projects</h5>
+                            <p>Details about ongoing rural initiatives</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Operations</h5>
+                            <p>Guidelines for scheme operations</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Exemption Procedures</h5>
+                            <p>Process for requesting exemptions</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Rural Development Visualization</h5>
+                            <p>Reports on rural development projects</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h5>Requirements</h5>
+                            <p>Essential requirements for participation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>National Service Scheme</h5>
+                        <p>Thavakkara, Civil Station P.O, Kannur</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>&copy; {% now "Y" %} National Service Scheme. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
